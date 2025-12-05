@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index – Home</title>
+
+    <!--
+      ملاحظة ليزن:
+      هذا الملف فقط يقوم بتحويل الزائر مباشرة إلى صفحة EXARAI.html
+      حتى يصبح عندك index.html رئيسي للموقع على GitHub Pages.
+      إذا حبيت لاحقاً نخلي index.html صفحة كاملة فيها أزرار وروابط
+      مخصصة، بنقدر نطوّرها بسهولة.
+    -->
+
+    <meta http-equiv="refresh" content="0; url=EXARAI.html" />
+
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(circle at top, #111827, #020617 55%, #000 100%);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, "Helvetica Neue", Arial, sans-serif;
+        color: #e5e7eb;
+      }
+      .container {
+        text-align: center;
+        padding: 24px;
+      }
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+      }
+      p {
+        font-size: 0.95rem;
+        opacity: 0.85;
+        margin-bottom: 1.25rem;
+      }
+      a.button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        padding: 0.65rem 1.4rem;
+        border-radius: 999px;
+        border: 1px solid rgba(148, 163, 184, 0.6);
+        text-decoration: none;
+        font-size: 0.95rem;
+        color: #e5e7eb;
+        background: linear-gradient(135deg, #0f172a, #111827);
+        box-shadow: 0 10px 25px rgba(15, 23, 42, 0.8);
+      }
+      a.button span.icon {
+        font-size: 1.1rem;
+      }
+      a.button:hover {
+        border-color: #38bdf8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Redirecting to Home…</h1>
+      <p>إذا لم يتم تحويلك تلقائياً، اضغط على الزر للانتقال للواجهة الرئيسية.</p>
+      <a href="EXARAI.html" class="button">
+        <span class="icon">🏠</span>
+        <span>الذهاب إلى الصفحة الرئيسية</span>
+      </a>
+    </div>
+  </body>
+</html>
